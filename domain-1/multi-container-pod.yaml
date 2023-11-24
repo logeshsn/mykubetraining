@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginxwebserver
+spec:
+  containers:
+    - name: main-container
+      image: nginx:alpine
+    - name: sidecar-container
+      image: busybox
+      command:
+        - sleep
+        - "3600"
+
