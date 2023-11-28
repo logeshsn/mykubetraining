@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: newserver-web
+  name: newserver-web2
 spec:
   containers:
   - name: newserver-web
